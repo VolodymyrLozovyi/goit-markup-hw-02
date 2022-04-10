@@ -47,6 +47,16 @@
     color: #212121;
 }
 
+.header-menu :hover,
+.header-menu :focus,
+.header-menu :active {
+    color: #2196F3;
+}
+
+.header-menu :current {
+  color: #2196F3;  
+}
+
 .header-contact-mail .link {
     font-weight: 500;
     font-size: 14px;
@@ -55,12 +65,22 @@
     color: #757575;
 }
 
+.header-contact-mail :hover,
+.header-contact-mail :focus {
+    color: #2196F3;
+}
+
 .header-contact-tel .link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+}
+
+.header-contact-tel :hover,
+.header-contact-tel :focus {
+    color: #2196F3;
 }
 
 .header-logo-black {
@@ -85,7 +105,7 @@
 }
 
 .button {
-    background-color: #2196F3;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -94,6 +114,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
+    background-color: #2196F3;
     cursor: pointer;
 }
 
@@ -212,8 +233,13 @@ color: #FFFFFF;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-
+} 
+.footer-adress-list-adress :hover,
+.footer-adress-list-adress :focus {
+    color: #2196F3;
 }
+
+
 .footer-adress-list-mail .link{
     font-style: normal;
     font-weight: 400;
@@ -223,6 +249,12 @@ color: #FFFFFF;
     color: rgba(255, 255, 255, 0.6);
 
 }
+
+.footer-adress-list-mail :hover,
+.footer-adress-list-mail :focus {
+    color: #2196F3;
+}
+
 .footer-adress-list-tel .link{
     font-style: normal;
     font-weight: 400;
@@ -230,7 +262,11 @@ color: #FFFFFF;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
 
+.footer-adress-list-tel :hover,
+.footer-adress-list-tel :focus {
+    color: #2196F3;
 }
 
 .portfolio-main{
@@ -244,16 +280,28 @@ color: #FFFFFF;
 }
     
 .portfolio-btn {
+    font-family:inherit; 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    background-color: #F5F4FA;
     color: #212121;
 
 }
 
+.portfolio-btn :hover,
+.portfolio-btn :focus {
+    background-color: #2196F3;
+}
+
+.portfolio-btn :active {
+    background-color: #2196F3;
+}
+
 .btn {
+
 
 }
 
