@@ -41,14 +41,12 @@
     letter-spacing: 0.02em;
     color: #212121;
 }
-
-.current {
+.header-menu .link.current {
     color: #2196F3;
-} 
+}
 
 .header-menu :hover,
-.header-menu :focus,
-.header-menu :active {
+.header-menu :focus {
     color: #2196F3;
 }
 
