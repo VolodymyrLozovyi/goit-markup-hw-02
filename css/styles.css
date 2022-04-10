@@ -1,5 +1,6 @@
 .body{
     font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF
 }
 .link {
     text-decoration: none;
@@ -47,15 +48,17 @@
     color: #212121;
 }
 
+.current {
+    color: #2196F3;
+} 
+
 .header-menu :hover,
 .header-menu :focus,
 .header-menu :active {
     color: #2196F3;
 }
 
-.header-menu :current {
-  color: #2196F3;  
-}
+
 
 .header-contact-mail .link {
     font-weight: 500;
