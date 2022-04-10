@@ -142,6 +142,7 @@ color: #212121;
 }
 
 .team{
+    background-color: #F5F4FA;
 
 }
 .team-title{
@@ -231,16 +232,14 @@ color: #FFFFFF;
 .portfolio-main{
 
 }
-.portfolio-nav{
+.portfolio-nav{    
 
 }
 .portfolio-nav-nav{
-
+    
 }
-.portfolio-nav-list{
-
-}
-.portfolio-nav-list-item{
+    
+.portfolio-nav-item{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
